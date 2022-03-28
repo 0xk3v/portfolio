@@ -15,6 +15,7 @@ export const Nav = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 2;
   background: ${({ theme }) => theme.bgColor};
   .icons {
     a {
@@ -66,7 +67,7 @@ export const Terminal = styled.div`
   font-family: "Source Code Pro", monospace;
   border-radius: 6px;
   background: black;
-  max-width: 450px;
+  max-width: 500px;
   color: ${({ theme }) => theme.secondaryColor};
 
   span {

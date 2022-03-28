@@ -9,7 +9,7 @@ import {
 
 const Home = () => {
   return (
-    <HomeWrapper>
+    <HomeWrapper id="home">
       <Nav>
         <ul>
           <li>
@@ -32,7 +32,7 @@ const Home = () => {
         <h1 className="bold">Hello,</h1>
         <h1>I&apos;m Kevin</h1>
         <Terminal>
-          $ I create, design and develop websites
+          $ I create, design and develop websites...
           <span className="cursor">.</span>
         </Terminal>
       </HomeContent>
