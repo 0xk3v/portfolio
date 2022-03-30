@@ -15,7 +15,7 @@ export const Nav = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 2;
+  z-index: 20;
   background: ${({ theme }) => theme.bgColor};
   .icons {
     a {
@@ -38,6 +38,9 @@ export const Nav = styled.nav`
         color: ${({ theme }) => theme.textColor};
       }
     }
+  }
+  @media screen and (max-width: 600px) {
+    padding: 0 2rem;
   }
 `;
 

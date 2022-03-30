@@ -9,6 +9,10 @@ export const AboutWrapper = styled.div`
   color: #fff;
   font-family: "Source Sans Pro", sans-serif;
   background: ${({ theme }) => theme.bgColor2};
+  @media screen and (max-width: 600px) {
+    padding: 5rem 0;
+    height: auto;
+  }
 `;
 
 export const AboutContent = styled.div`
@@ -45,6 +49,22 @@ export const AboutContent = styled.div`
       gap: 4rem 0;
       grid-template-rows: 1fr 1fr 1fr;
       grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+    .about-me,
+    .skills {
+      width: 100%;
+      text-align: center;
+    }
+    .skills {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .skill-icons {
+        gap: 1rem 0;
+      }
     }
   }
 `;
