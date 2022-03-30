@@ -2,7 +2,7 @@
 
 ---
 
-## Scripts available
+# Scripts available
 
 ### Installing Dependencies
 
