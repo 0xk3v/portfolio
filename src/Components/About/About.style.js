@@ -17,6 +17,7 @@ export const AboutContent = styled.div`
   display: flex;
   justify-content: space-between;
 
+  z-index: 2;
   h1 {
     font-size: 50px;
     margin: 2rem 0;
@@ -36,15 +37,14 @@ export const AboutContent = styled.div`
   }
   .skills {
     width: 50%;
-    margin-left: 5rem;
-    padding: 0 3rem;
+    padding: 0 5rem;
     .skill-icons {
       font-size: 4rem;
       color: #fff;
       display: grid;
       gap: 4rem 0;
       grid-template-rows: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: repeat(3, 1fr);
     }
   }
 `;

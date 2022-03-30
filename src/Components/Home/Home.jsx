@@ -6,6 +6,8 @@ import {
   Nav,
   Terminal,
 } from "./Home.style";
+import Particles from "react-tsparticles";
+import { config } from "./config";
 
 const Home = () => {
   return (
@@ -29,6 +31,7 @@ const Home = () => {
         </div>
       </Nav>
       <HomeContent>
+        <Particles id="tsparticles" options={config} />
         <h1 className="bold">Hello,</h1>
         <h1>I&apos;m Kevin</h1>
         <Terminal>

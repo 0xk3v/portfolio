@@ -1,7 +1,7 @@
 import { ThemeProvider } from "styled-components";
 import GlobalStyles from "./global";
 import { theme } from "./theme";
-import { About, Home } from "./Components";
+import { About, Contact, Home } from "./Components";
 
 const App = () => {
   return (
@@ -9,6 +9,7 @@ const App = () => {
       <GlobalStyles />
       <Home />
       <About />
+      <Contact />
     </ThemeProvider>
   );
 };
