@@ -1,6 +1,8 @@
 # My Personal Portfolio
 
----
+
+[Link to portfolio](https://n-kev1n.github.io/portfolio)
+
 
 # Scripts available
 
